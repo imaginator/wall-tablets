@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <boolean name="core.autostart.call" value="true" />
+    <set name="core.locks.saved">
+        <string>PARTIAL_WAKE_LOCK</string>
+        <string>WIFI_MODE_SCAN_ONLY</string>
+        <string>SCREEN_DIM_WAKE_LOCK</string>
+        <string>WIFI_MODE_FULL_HIGH_PERF</string>
+        <string>WIFI_MODE_FULL</string>
+    </set>
+    <boolean name="core.paused" value="true" />
+    <boolean name="core.autostart.boot" value="true" />
+    <boolean name="core.onboarding.show" value="false" />
+</map>
