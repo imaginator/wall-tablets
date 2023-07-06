@@ -59,7 +59,7 @@
   "barcodeScanTargetUrl": "",
   "enableUrlOtherApps": false,
   "showNavigationBar": false,
-  "timeToScreenOffV2": "0",
+  "timeToScreenOffV2": "7200",
   "loadCurrentPageOnReload": false,
   "lastVersionInfo": "1.50.4",
   "killOtherApps": false,
@@ -368,6 +368,6 @@
   "mdmLockTask": true,
   "knoxDisablePowerButton": false,
   "readNfcTag": false,
-  "kioskPinEnc": "enc_Q82yS0v5P+X4qiVLVXDSGZ3j/N4Bh6VWfl5B6j6TBN0=",
-  "remoteAdminPasswordEnc": "enc_91+N/9plNLkNpAL2M/bMg20ztQRnK59oNDg2kxQmZ3crng=="
+  "kioskPinEnc": "enc_6de8pKZG7K6axlfgCFK5H9FvJYACdFSx9mEaCNovDME=",
+  "remoteAdminPasswordEnc": "enc_Fj4APa8L7Q4QySXfgPMsWqLZjHlkNTUBfRtxk+HDmI5myA=="
 }
