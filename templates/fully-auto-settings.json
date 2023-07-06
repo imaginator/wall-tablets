@@ -11,7 +11,7 @@
   "tabsBgColor": -2236963,
   "mqttDeviceInfoTopic": "$appId/deviceInfo/$deviceId",
   "errorUrlOnDisconnection": "0",
-  "screensaverBrightness": "",
+  "screensaverBrightness": "255",
   "showActionBar": false,
   "mdmDisableScreenCapture": false,
   "restartOnCrash": true,
@@ -368,6 +368,6 @@
   "mdmLockTask": true,
   "knoxDisablePowerButton": false,
   "readNfcTag": false,
-  "kioskPinEnc": "enc_6de8pKZG7K6axlfgCFK5H9FvJYACdFSx9mEaCNovDME=",
-  "remoteAdminPasswordEnc": "enc_Fj4APa8L7Q4QySXfgPMsWqLZjHlkNTUBfRtxk+HDmI5myA=="
+  "kioskPinEnc": "enc_jOEzG3WjTONPoUoJPqcgCO91dvDPC4/pHrs5ZNs+vFs=",
+  "remoteAdminPasswordEnc": "enc_CnRTX8SKGJrxqEsx0CTMOH3PO6isEGAXCyT6NQakZ22Blg=="
 }
