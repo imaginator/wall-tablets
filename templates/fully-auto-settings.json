@@ -81,7 +81,7 @@
   "swipeTabs": false,
   "screensaverPlaylist": "",
   "webcamAccess": false,
-  "screenBrightness": "",
+  "screenBrightness": "255",
   "urlWhitelist": "",
   "enableQrScan": false,
   "launcherInjectCode": "",
