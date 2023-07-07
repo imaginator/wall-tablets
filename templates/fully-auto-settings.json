@@ -23,7 +23,7 @@
   "kioskWifiPinAction": "0",
   "knoxDisableAndroidBeam": false,
   "mqttBrokerUrl": "tcp://10.7.11.10:1883",
-  "removeNavigationBar": false,
+  "removeNavigationBar": true,
   "kioskAppWhitelist": "",
   "softKeyboard": true,
   "knoxDisableSettingsChanges": false,
@@ -156,7 +156,7 @@
   "forceImmersive": true,
   "mdmSystemAppsToEnable": "",
   "knoxDisableScreenCapture": false,
-  "removeStatusBar": false,
+  "removeStatusBar": true,
   "knoxDisableWifiDirect": false,
   "knoxHideNavigationBar": false,
   "mdmDisableStatusBar": true,
@@ -368,6 +368,6 @@
   "mdmLockTask": true,
   "knoxDisablePowerButton": false,
   "readNfcTag": false,
-  "kioskPinEnc": "enc_5JrqeP9sk5EmHOHYSF2xeJZpuCdhB+RNku454S0CBro=",
-  "remoteAdminPasswordEnc": "enc_gLD5caMWkAlizfr9rH54wvZLGJJJm8QPFabebMxqj+gpoQ=="
+  "kioskPinEnc": "enc_WcNwFhrDLVAlI5uQ69aahdGnLxGdwRBo4CnbsDmdpjA=",
+  "remoteAdminPasswordEnc": "enc_rqZ3QKVvRoJA15clE4nQMvGiG1IZs0hbEkMbcUYMLa+zTw=="
 }
