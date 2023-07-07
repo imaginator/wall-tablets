@@ -145,7 +145,7 @@
   "statusBarColor": 0,
   "usageStatistics": true,
   "isRunning": true,
-  "resetWifiOnDisconnection": false,
+  "resetWifiOnDisconnection": true,
   "sleepOnPowerDisconnectDelay": "0",
   "fileUploads": false,
   "detectMotionOnlyWithFaces": false,
