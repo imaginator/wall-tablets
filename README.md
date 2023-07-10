@@ -24,15 +24,10 @@ Serial          : b01ecb162df35158
 3. adb reboot recovery
 4. flash the zip
 5. enable developer options, enable remote debugging
-6. ```
+6. 
+```
 adb connect <tablet>
 adb shell setprop persist.adb.tcp.port 5555 # keep adb via wifi enabled
-adb shell setprop persist.sys.timezone Europe/Berlin
-adb shell settings put system accelerometer_rotation 1
-adb shell settings put system screen_brightness_mode 1 # auto brightness mode (1=automatic)
-adb shell settings put system volume_system 0
-adb shell settings put global bluetooth_on 0
-adb shell "cmd uimode night yes"
 adb push  ~/Documents/src/wall-tablets/templates/fully-auto-settings.json /sdcard
 adb install Fully-Kiosk-Browser-v1.50.4-emm.apk
 adb shell dpm set-device-owner com.fullykiosk.emm/de.ozerov.fully.DeviceOwnerReceiver
