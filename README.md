@@ -27,9 +27,8 @@ Serial          : b01ecb162df35158
 6. 
 ```
 adb connect <tablet>
-adb shell setprop persist.adb.tcp.port 5555 # keep adb via wifi enabled
 adb push  ~/Documents/src/wall-tablets/templates/fully-auto-settings.json /sdcard
-adb install Fully-Kiosk-Browser-v1.50.4-emm.apk
+adb install ~/Downloads/Fully-Kiosk-Browser-v1.50.4-emm.apk
 adb shell dpm set-device-owner com.fullykiosk.emm/de.ozerov.fully.DeviceOwnerReceiver
 ```
 7. Start Fully Kiosk app and enter provisioning code `FFF` when asked
@@ -37,8 +36,8 @@ adb shell dpm set-device-owner com.fullykiosk.emm/de.ozerov.fully.DeviceOwnerRec
 
 
 Other useful commands:
-
-Break glass option
 ```
-adb shell "am broadcast -a android.intent.action.MASTER_CLEAR"
+# version information
+adb shell getprop ro.build.version.release
+adb shell getprop ro.build.version.sdk
 ```
