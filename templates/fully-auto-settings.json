@@ -330,7 +330,7 @@
   "actionBarIconUrl": "",
   "wifiEnterpriseIdentity": "",
   "knoxActiveByKiosk": false,
-  "timeToScreensaverV2": "120",
+  "timeToScreensaverV2": "0",
   "kioskWifiPinCustomIntent": "",
   "playAlarmSoundOnMovement": false,
   "barcodeScanSubmitInputField": false,
