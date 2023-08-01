@@ -322,7 +322,7 @@
   "knoxDisableAirCommandMode": false,
   "reloadOnWifiOn": true,
   "sleepSchedule": "",
-  "rebootTime": "",
+  "rebootTime": "4:45",
   "actionBarTitle": "Fully Kiosk Browser",
   "webviewScrolling": true,
   "tapsToPinDialogInSingleAppMode": "7",
