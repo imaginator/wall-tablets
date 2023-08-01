@@ -11,7 +11,7 @@
   "tabsBgColor": -2236963,
   "mqttDeviceInfoTopic": "$appId/deviceInfo/$deviceId",
   "errorUrlOnDisconnection": "0",
-  "screensaverBrightness": "255",
+  "screensaverBrightness": "",
   "showActionBar": false,
   "mdmDisableScreenCapture": false,
   "restartOnCrash": true,
