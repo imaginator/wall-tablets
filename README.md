@@ -1,7 +1,7 @@
 Amazon Fire HD8 (2018) (douglas)
 ================================
 
-```
+```bash
 douglas:/ # cat /proc/cpuinfo                                                                                                                                                               
 Processor       : AArch64 Processor rev 3 (aarch64)
 processor       : 0
@@ -25,10 +25,11 @@ Serial          : b01ecb162df35158
 4. flash the zip
 5. enable developer options, enable remote debugging
 6. 
-```
+```bash
 adb connect <tablet>
 adb push  ~/Documents/src/wall-tablets/templates/fully-auto-settings.json /sdcard
 adb install ~/Downloads/Fully-Kiosk-Browser-v1.50.4-emm.apk
+adb install ~/Downloads/app-minimal-release.apk # home assistant app
 adb shell dpm set-device-owner com.fullykiosk.emm/de.ozerov.fully.DeviceOwnerReceiver
 ```
 7. Start Fully Kiosk app and enter provisioning code `FFF` when asked
@@ -36,8 +37,14 @@ adb shell dpm set-device-owner com.fullykiosk.emm/de.ozerov.fully.DeviceOwnerRec
 
 
 Other useful commands:
-```
+```bash
 # version information
 adb shell getprop ro.build.version.release
 adb shell getprop ro.build.version.sdk
+```
+
+To reauthorize the device:
+```bash
+while true ; do adb connect  tablet-study ; sleep 1 ;  done 
+# then re-enable debugging
 ```

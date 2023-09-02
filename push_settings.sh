@@ -28,8 +28,9 @@ for room in $rooms; do
     adb -s tablet-$room.imagilan shell setprop persist.adb.tcp.port 5555 # keep adb via wifi enabled
     adb -s tablet-$room.imagilan shell setprop persist.sys.timezone Europe/Berlin
     adb -s tablet-$room.imagilan shell settings put global bluetooth_on 0
+    adb -s tablet-$room.imagilan shell settings put global wifi_scan_throttle_enabled 0
     adb -s tablet-$room.imagilan shell settings put secure location_providers_allowed -gps
-    adb -s tablet-$room.imagilan shell settings put secure location_providers_allowed -network
+    adb -s tablet-$room.imagilan shell settings put secure location_providers_allowed +network
     adb -s tablet-$room.imagilan shell settings put system accelerometer_rotation 1
     adb -s tablet-$room.imagilan shell settings put system screen_brightness_mode 1 # auto brightness mode
 
