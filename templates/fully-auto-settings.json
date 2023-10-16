@@ -120,8 +120,8 @@
   "kioskAppWhitelist": "",
   "kioskExitGesture": "0",
   "kioskHomeStartURL": true,
-  "kioskMode": true,
-  "kioskPinEnc": "enc_F6b6OcnNeDOjbOeLBNouL3TU0mUMncRlB6IhzbyjhCQ=",
+  "kioskMode": false,
+  "kioskPinEnc": "enc_mYm449JMirAJoUeUigsohd+Ua+Aw/pZ1Pi830s7HLU0=",
   "kioskWifiPin": "",
   "kioskWifiPinAction": "0",
   "kioskWifiPinCustomIntent": "",
@@ -252,7 +252,7 @@
   "recreateTabsOnReload": false,
   "redirectBlocked": false,
   "reloadEachSeconds": "0",
-  "reloadOnInternet": true,
+  "reloadOnInternet": false,
   "reloadOnScreenOn": true,
   "reloadOnScreensaverStop": true,
   "reloadOnWifiOn": true,
@@ -364,10 +364,10 @@
   "webviewScrolling": true,
   "wifiEnterpriseIdentity": "",
   "wifiEnterprisePassword": "",
-  "wifiKey": "",
+  "wifiKey": "internetofshit",
   "wifiMode": "1",
-  "wifiSSID": "",
+  "wifiSSID": "imagiFi IoT",
   "wifiType": "WPA_PSK",
   "wssServiceUrl": "",
-  "remoteAdminPasswordEnc": "enc_6+oJD7n5nk1HN8nsNpZm+A6NyVxMU1dxh2W1LOmvAgHxpQ=="
+  "remoteAdminPasswordEnc": "enc_QjiAZcrE3TPYoKO9TkwOq9daEXXdtY9hN178Qc3/HDCUJg=="
 }
